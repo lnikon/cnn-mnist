@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/nikon/projects/convnet-mnist/mnist/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+HEADER_IMAGES_SIZE	tests/test_download_mnist.py	/^HEADER_IMAGES_SIZE = 4 * 4$/;"	v
+HEADER_LABELS_SIZE	tests/test_download_mnist.py	/^HEADER_LABELS_SIZE = 2 * 4$/;"	v
+IMAGE_COLS	tests/test_download_mnist.py	/^IMAGE_COLS = 28$/;"	v
+IMAGE_ROWS	tests/test_download_mnist.py	/^IMAGE_ROWS = 28$/;"	v
+IMAGE_SIZE	tests/test_download_mnist.py	/^IMAGE_SIZE = IMAGE_COLS * IMAGE_ROWS$/;"	v
+IdxDecodeError	mnist/__init__.py	/^class IdxDecodeError(ValueError):$/;"	c
+LABEL_BYTES	tests/test_download_mnist.py	/^LABEL_BYTES = 1$/;"	v
+LONG_DESCRIPTION	setup.py	/^LONG_DESCRIPTION = '''$/;"	v
+MNIST dataset	README.md	/^## MNIST dataset$/;"	s	chapter:mnist: Python utilities to download and parse the MNIST dataset
+PIXEL_BYTES	tests/test_download_mnist.py	/^PIXEL_BYTES = 1$/;"	v
+TEST_SAMPLES	tests/test_download_mnist.py	/^TEST_SAMPLES = 10000$/;"	v
+TRAIN_SAMPLES	tests/test_download_mnist.py	/^TRAIN_SAMPLES = 60000$/;"	v
+TestDownloadMNIST	tests/test_download_mnist.py	/^class TestDownloadMNIST(unittest.TestCase):$/;"	c
+TestParseIdx	tests/test_parse_idx.py	/^class TestParseIdx(unittest.TestCase):$/;"	c
+Usage	README.md	/^## Usage$/;"	s	chapter:mnist: Python utilities to download and parse the MNIST dataset
+__version__	mnist/__init__.py	/^__version__ = '0.2.2'$/;"	v
+_gzip_file_size	tests/test_download_mnist.py	/^    def _gzip_file_size(fname):$/;"	m	class:TestDownloadMNIST
+datasets_url	mnist/__init__.py	/^datasets_url = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	v
+download_and_parse_mnist_file	mnist/__init__.py	/^def download_and_parse_mnist_file(fname, target_dir=None, force=False):$/;"	f
+download_file	mnist/__init__.py	/^def download_file(fname, target_dir=None, force=False):$/;"	f
+mnist: Python utilities to download and parse the MNIST dataset	README.md	/^# mnist: Python utilities to download and parse the MNIST dataset$/;"	c
+parse_idx	mnist/__init__.py	/^def parse_idx(fd):$/;"	f
+setUp	tests/test_download_mnist.py	/^    def setUp(self):$/;"	m	class:TestDownloadMNIST
+tearDown	tests/test_download_mnist.py	/^    def tearDown(self):$/;"	m	class:TestDownloadMNIST
+temporary_dir	mnist/__init__.py	/^temporary_dir = tempfile.gettempdir$/;"	v
+test_datasets_url_is_used	tests/test_download_mnist.py	/^    def test_datasets_url_is_used(self, urlretrieve):$/;"	m	class:TestDownloadMNIST
+test_empty_file_raises_exception	tests/test_parse_idx.py	/^    def test_empty_file_raises_exception(self):$/;"	m	class:TestParseIdx
+test_file_is_downloaded_to_target_dir	tests/test_download_mnist.py	/^    def test_file_is_downloaded_to_target_dir(self, urlretrieve):$/;"	m	class:TestDownloadMNIST
+test_file_is_downloaded_when_exists_and_force_is_true	tests/test_download_mnist.py	/^    def test_file_is_downloaded_when_exists_and_force_is_true(self,$/;"	m	class:TestDownloadMNIST
+test_file_is_not_downloaded_when_force_is_false	tests/test_download_mnist.py	/^    def test_file_is_not_downloaded_when_force_is_false(self, urlretrieve):$/;"	m	class:TestDownloadMNIST
+test_file_with_int_type_returns_correct_values	tests/test_parse_idx.py	/^    def test_file_with_int_type_returns_correct_values(self):$/;"	m	class:TestParseIdx
+test_file_with_negative_int_returns_correct_values	tests/test_parse_idx.py	/^    def test_file_with_negative_int_returns_correct_values(self):$/;"	m	class:TestParseIdx
+test_file_with_one_dimension_returns_correct_values	tests/test_parse_idx.py	/^    def test_file_with_one_dimension_returns_correct_values(self):$/;"	m	class:TestParseIdx
+test_file_with_two_dimensions_returns_correct_values	tests/test_parse_idx.py	/^    def test_file_with_two_dimensions_returns_correct_values(self):$/;"	m	class:TestParseIdx
+test_images	mnist/__init__.py	/^def test_images():$/;"	f
+test_labels	mnist/__init__.py	/^def test_labels():$/;"	f
+test_missing_header_raises_exception	tests/test_parse_idx.py	/^    def test_missing_header_raises_exception(self):$/;"	m	class:TestParseIdx
+test_missing_initial_zeros_raises_exception	tests/test_parse_idx.py	/^    def test_missing_initial_zeros_raises_exception(self):$/;"	m	class:TestParseIdx
+test_missing_items_raises_error	tests/test_parse_idx.py	/^    def test_missing_items_raises_error(self):$/;"	m	class:TestParseIdx
+test_temporary_dir_is_used	tests/test_download_mnist.py	/^    def test_temporary_dir_is_used(self, urlretrieve):$/;"	m	class:TestDownloadMNIST
+test_test_images_has_right_size	tests/test_download_mnist.py	/^    def test_test_images_has_right_size(self):$/;"	m	class:TestDownloadMNIST
+test_test_labels_has_right_size	tests/test_download_mnist.py	/^    def test_test_labels_has_right_size(self):$/;"	m	class:TestDownloadMNIST
+test_train_images_has_right_size	tests/test_download_mnist.py	/^    def test_train_images_has_right_size(self):$/;"	m	class:TestDownloadMNIST
+test_train_labels_has_right_size	tests/test_download_mnist.py	/^    def test_train_labels_has_right_size(self):$/;"	m	class:TestDownloadMNIST
+test_unexpected_items_raises_error	tests/test_parse_idx.py	/^    def test_unexpected_items_raises_error(self):$/;"	m	class:TestParseIdx
+test_unknown_data_type_raises_error	tests/test_parse_idx.py	/^    def test_unknown_data_type_raises_error(self):$/;"	m	class:TestParseIdx
+train_images	mnist/__init__.py	/^def train_images():$/;"	f
+train_labels	mnist/__init__.py	/^def train_labels():$/;"	f
